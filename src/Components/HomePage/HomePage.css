@@ -1,0 +1,16 @@
+.HomePageMain {
+    display: flex;
+    justify-content: center;
+}
+
+.HomePageMain img {
+    height: 90vh;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 800px){
+    .HomePageMain img {
+        width: 100vw;
+    }
+}
