@@ -1,0 +1,32 @@
+.NavBarMain {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.NavBarLogo {
+    padding-left: 10px;
+}
+
+.NavBarLinks {
+    display: none;
+}
+
+.NavBarHamburger img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 800px){
+    .NavBarLinks {
+        display: block
+    }
+    
+    .NavBarHamburger {
+        display: none;
+    }
+}
