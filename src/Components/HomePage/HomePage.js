@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './HomePage.css'
+
 const HomePage = () => {
     return(
-        <div>
+        <div className="HomePageMain">
             THIS IS THE HOME PAGE
         </div>
     )

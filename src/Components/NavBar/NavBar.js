@@ -12,12 +12,12 @@ const NavBar = () => {
                 <h3>BRIGHT PARADIGMS</h3>
             </div>
             <div className='NavBarLinks'>
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About Us</Link>
-                <Link to='/contact'>Contact</Link>
+                <Link className='LinkLink' to='/'>Home</Link>
+                <Link className='LinkLink' to='/about'>About Us</Link>
+                <Link className='LinkLink' to='/contact'>Contact</Link>
             </div>
             <div className="NavBarHamburger">
-                <img src={Hamburger} alt='Menu' />
+                <img src={Hamburger} alt='Menu'/>
             </div>
         </div>
     )

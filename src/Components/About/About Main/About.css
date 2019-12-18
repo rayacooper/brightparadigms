@@ -1,0 +1,22 @@
+.AboutMain {
+    margin-top: -2px;
+}
+
+.AboutNavBar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: rgb(49, 49, 49);
+    color: whitesmoke;
+}
+
+.AboutNavBar h5 {
+    margin-left: 5px;
+}
+
+.AboutForrest {
+    width: 100vw;
+    height: 800px;
+    display: block;
+}
