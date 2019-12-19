@@ -16,6 +16,7 @@
 }
 
 .NavBarHamburger img {
+    cursor: pointer;
     width: 40px;
     height: 40px;
     padding: 10px;
