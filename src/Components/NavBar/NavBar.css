@@ -22,6 +22,34 @@
     padding: 10px;
 }
 
+.LinkLink{
+    text-decoration: none;
+    color: white;
+}
+
+.NavBarDropDownHidden {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 8px 50px 15px 0px;
+}
+
+.NavBarDropDownVisible {
+    font-size: 20px;
+    opacity: 0.8;
+    right: 0px;
+    position: absolute;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
 @media screen and (min-width: 800px){
     .NavBarLinks {
         display: flex;
@@ -29,13 +57,12 @@
         justify-content: space-around;
         align-items: center;
     }
-
-    .LinkLink{
-        text-decoration: none;
-        color: white;
-    }
     
     .NavBarHamburger {
+        display: none;
+    }
+
+    .NavBarDropDownVisible{
         display: none;
     }
 }
