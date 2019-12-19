@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './NavBar.css'
 
 import {Link, withRouter} from 'react-router-dom';
@@ -6,6 +6,13 @@ import {Link, withRouter} from 'react-router-dom';
 import Hamburger from './../../Assets/hamburger-menu.png'
 
 const NavBar = () => {
+
+    let [dropDown, updateDropDown] = useState(false)
+
+    const clickMenu = () => {
+        updateDropDown(!dropDown)
+    }
+
     return(
         <div className="NavBarMain">
 
@@ -20,7 +27,15 @@ const NavBar = () => {
             </div>
 
             <div className="NavBarHamburger">
-                <img src={Hamburger} alt='Menu'/>
+                <img src={Hamburger} alt='Menu' onClick={() => clickMenu}/>
+            </div>
+
+            <div className={"NavBarDropDownHidden"}>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </div>
             
         </div>
