@@ -6,7 +6,6 @@
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    position: fixed;
     background-color: rgb(49, 49, 49);
     color: whitesmoke;
 }
