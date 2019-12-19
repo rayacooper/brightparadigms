@@ -21,9 +21,9 @@ const NavBar = () => {
             </div>
 
             <div className='NavBarLinks'>
-                <Link className='LinkLink' to='/'>Home</Link>
-                <Link className='LinkLink' to='/about'>About Us</Link>
-                <Link className='LinkLink' to='/contact'>Contact</Link>
+                <Link className='LinkLink' to='/' >Home</Link>
+                <Link className='LinkLink' to='/about' >About Us</Link>
+                <Link className='LinkLink' to='/news' >News</Link>
             </div>
 
             <div className="NavBarHamburger" onClick={() => clickMenu()}>
@@ -32,9 +32,9 @@ const NavBar = () => {
 
             <div className={dropDown ? "NavBarDropDownVisible" : "NavBarDropDownHidden"}>
                 <ul className='LinkLink'>
-                    <li className='LinkLink'><Link className='LinkLink' to='/'>Home</Link></li>
-                    <li><Link className='LinkLink' to='/about'>About</Link></li>
-                    <li><Link className='LinkLink' to='/contact'>Contact</Link></li>
+                    <li><Link className='LinkLink' to='/' onClick={() => updateDropDown(false)}>Home</Link></li>
+                    <li><Link className='LinkLink' to='/about' onClick={() => updateDropDown(false)}>About</Link></li>
+                    <li><Link className='LinkLink' to='/news' onClick={() => updateDropDown(false)}>News</Link></li>
                 </ul>
             </div>
             

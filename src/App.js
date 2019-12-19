@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router} from 'react-router-dom'
 import NavBar from './Components/NavBar/NavBar'
+import Contact from './Components/Contact/Contact'
 import Routes from './Routes';
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <NavBar />
         {Routes}
+        <Contact />
       </Router>
     
     </div>
