@@ -4,6 +4,8 @@ import './NavBar.css'
 import {Link, withRouter} from 'react-router-dom';
 
 import Hamburger from './../../Assets/hamburger-menu.png'
+import Logo from './../../Assets/Bright-Paradigms-Logo-Just-White.png'
+import Lettering from './../../Assets/Bright-Paradigms-Lettering.png'
 
 const NavBar = () => {
 
@@ -17,7 +19,10 @@ const NavBar = () => {
         <div className="NavBarMain">
 
             <div className="NavBarLogo">
-                <h3>BRIGHT PARADIGMS</h3>
+                
+                    <img id='logo' src={Logo} />
+                    <img id='lettering' src={Lettering} />
+                
             </div>
 
             <div className='NavBarLinks'>
