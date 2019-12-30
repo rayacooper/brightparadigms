@@ -7,6 +7,7 @@ import Hamburger from './../../Assets/hamburger-menu.png'
 import Logo from './../../Assets/Bright-Paradigms-Logo-Just-White.png'
 import Lettering from './../../Assets/Bright-Paradigms-Lettering.png'
 import LetteringMobile from './../../Assets/Bright-Paradigms-Lettering-Mobile.png'
+import LogoCropped from './../../Assets/Bright-Paradigms-Logo-Just-White-Cropped.png'
 
 const NavBar = () => {
 
@@ -21,7 +22,7 @@ const NavBar = () => {
 
             <div className="NavBarLogo">
                 
-                    <img id='logo' src={Logo} />
+                    <img id='logo' src={LogoCropped} />
                     <img id='lettering' src={Lettering} />
                     <img id='letteringmobile' src={LetteringMobile} />
                 
