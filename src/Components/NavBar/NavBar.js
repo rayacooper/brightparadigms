@@ -6,6 +6,7 @@ import {Link, withRouter} from 'react-router-dom';
 import Hamburger from './../../Assets/hamburger-menu.png'
 import Logo from './../../Assets/Bright-Paradigms-Logo-Just-White.png'
 import Lettering from './../../Assets/Bright-Paradigms-Lettering.png'
+import LetteringMobile from './../../Assets/Bright-Paradigms-Lettering-Mobile.png'
 
 const NavBar = () => {
 
@@ -22,6 +23,7 @@ const NavBar = () => {
                 
                     <img id='logo' src={Logo} />
                     <img id='lettering' src={Lettering} />
+                    <img id='letteringmobile' src={LetteringMobile} />
                 
             </div>
 

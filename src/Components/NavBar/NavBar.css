@@ -13,16 +13,19 @@
 }
 
 #logo {
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 60px;
-    width: auto;
+    width: 70px;
 }
 
 #lettering {
-    margin-top: 20px;
-    height: 70px;
-    width: auto;
+    display: none;
+}
+
+#letteringmobile {
+    margin-top: 5px;
+    width: 30vw;
 }
 
 .NavBarLinks {
@@ -72,7 +75,25 @@ li {
         align-items: center;
         margin-right: 100px;
     }
+
+    #logo {
+        margin-left: 30px;
+        margin-right: 20px;
+        height: 60px;
+        width: auto;
+    }
+
+    #lettering {
+        display: block;
+        margin-top: 20px;
+        height: 70px;
+        width: auto;
+    }
     
+    #letteringmobile {
+        display: none;
+    }
+
     .NavBarHamburger {
         display: none;
     }
