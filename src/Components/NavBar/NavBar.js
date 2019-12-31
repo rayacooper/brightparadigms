@@ -19,15 +19,15 @@ const NavBar = () => {
 
     return(
         <div className="NavBarMain">
-
-            <div className="NavBarLogo">
-                
+            <Link className='NavBarLogo' to='/'>
+                <div className="NavBarLogo">
                     <img id='logo' src={LogoCropped} />
                     <img id='logocropped' src={LogoRight} />
                     <img id='lettering' src={Lettering} />
                     <img id='letteringmobile' src={LetteringMobile} />
-                
-            </div>
+                </div>  
+            </Link>
+            
 
             <div className='NavBarLinks'>
                 <Link className='LinkLink' to='/' >Home</Link>
