@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 80px;
+    height: 70px;
     background-color: black;
     color: white;
 }
@@ -12,11 +12,14 @@
     align-items: center;
 }
 
-#logo {
-    margin-left: 5px;
-    margin-right: 5px;
+#logocropped {
+    margin-left: 10px;
     height: 50px;
-    width: 130px;
+    width: 100px;
+}
+
+#logo {
+    display: none;
 }
 
 #lettering {
@@ -36,7 +39,7 @@
     cursor: pointer;
     width: 40px;
     height: 40px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .LinkLink{
@@ -80,6 +83,10 @@ li {
         margin-left: 30px;
         height: 60px;
         width: 160px;
+    }
+
+    #logocropped {
+        display: none;
     }
 
     #lettering {
