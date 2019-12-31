@@ -4,7 +4,7 @@ import './News.css'
 
 const News = () => {
     return(
-        <div>News Feed</div>
+        <div className='NewsMain'>News Feed</div>
     )
 }
 

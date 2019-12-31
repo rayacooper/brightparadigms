@@ -7,7 +7,7 @@ import Hamburger from './../../Assets/hamburger-menu.png'
 import LogoRight from './../../Assets/Bright-Paradigms-Logo-Just-White-Cropped-Right.png'
 import Lettering from './../../Assets/Bright-Paradigms-Lettering.png'
 import LetteringMobile from './../../Assets/Bright-Paradigms-Lettering-Mobile.png'
-import LogoCropped from './../../Assets/Bright-Paradigms-Logo-Just-White-Cropped.png'
+import LogoCropped from './../../Assets/Bright-Paradigms-Logo-Just-White.png'
 
 const NavBar = () => {
 
