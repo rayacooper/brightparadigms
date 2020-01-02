@@ -46,15 +46,27 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.AboutMiniSections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .AboutMiniSections p{
     display: block;
+    width: 70vw;
+    text-align: left;
+    color: rgb(53, 53, 53);
 }
 
 .AboutMiniSections h1 {
     background-color: rgb(65, 65, 65);
     color: white;
+    width: 80vw;
 }
 
 .AboutHidden h1 {
