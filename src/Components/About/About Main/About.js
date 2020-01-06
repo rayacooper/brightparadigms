@@ -72,7 +72,10 @@ const About = () => {
                 <div className='AboutDesktop'>
 
                     <div className="AboutMini">
-                        <div className='AboutDesktopImg'></div>
+                        <div className='AboutDesktopImg'>
+                            <h2>LIGHTING</h2>
+                            <img src={Lights} />
+                        </div>
                         <div className='AboutDesktopText'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -94,11 +97,17 @@ const About = () => {
                             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                             culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
-                        <div className='AboutDesktopImg'></div>
+                        <div className='AboutDesktopImg'>
+                            <h2>SHADING</h2>
+                            <img src={Lights} />
+                        </div>
                     </div>
 
                     <div className="AboutMini">
-                        <div className='AboutDesktopImg'></div>
+                        <div className='AboutDesktopImg'>
+                            <h2>TEMPERATURE</h2>
+                            <img src={Lights} />
+                        </div>
                         <div className='AboutDesktopText'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

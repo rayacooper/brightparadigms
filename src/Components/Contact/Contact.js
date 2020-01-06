@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="ContactInner">
                 <p><b>CONNECT</b></p>
                 <br />
-                {/* <p>YOUTUBE</p> */}
+                <a href='#' target='blank'><p>YOUTUBE</p></a>
                 <a href='#' target='blank'><p>FACEBOOK</p></a>
                 <a href='#' target='blank'><p>INSTAGRAM</p></a>
                 {/* <p>TWITTER</p>  */}

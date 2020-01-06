@@ -105,12 +105,15 @@ img {
     .AboutDesktopImg {
         width: 30vw;
         height: 30vw;
-        background-color: maroon;
+        background-color: rgb(87, 87, 87);
     }
 
     .AboutDesktopText {
         width: 30vw;
         height: 30vw;
+        padding: 30px;
+        box-sizing: border-box;
+        color: rgb(48, 48, 48);
     }
 }
 
