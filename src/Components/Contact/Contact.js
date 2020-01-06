@@ -9,10 +9,10 @@ const Contact = () => {
             <div className="ContactInner">
                 <p><b>CONNECT</b></p>
                 <br />
-                <p>YOUTUBE</p>
-                <p>FACEBOOK</p>
-                <p>INSTAGRAM</p>
-                <p>TWITTER</p> 
+                {/* <p>YOUTUBE</p> */}
+                <a href='#' target='blank'><p>FACEBOOK</p></a>
+                <a href='#' target='blank'><p>INSTAGRAM</p></a>
+                {/* <p>TWITTER</p>  */}
             </div>
 
             <div className="ContactInner">

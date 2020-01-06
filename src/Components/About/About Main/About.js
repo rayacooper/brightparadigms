@@ -11,8 +11,6 @@ const About = () => {
     let [temperatureVisible, updateTemperatureVisible] = useState(false);
 
     return(
-        <div className='AboutMain'>
-
             <div className="AboutBody">
                 <div className="AboutSections" id='AboutIntro'>
                     <h1>OUR MISSION</h1>
@@ -24,7 +22,10 @@ const About = () => {
                     <br />
                 </div>
 
-                <h1 id="whatwedo">WHAT<br />WE DO</h1>
+                <div id='whatwedo'>
+                    <h1>WHAT WE DO</h1>
+                </div>
+                
 
                 {/* <div className={forrestVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutForrest'>
                     <h1 onClick={() => updateForrestVisible(!forrestVisible)}>Forrest</h1>
@@ -67,10 +68,50 @@ const About = () => {
                     </div>
 
                 </div>
+
+                <div className='AboutDesktop'>
+
+                    <div className="AboutMini">
+                        <div className='AboutDesktopImg'></div>
+                        <div className='AboutDesktopText'>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div className="AboutMini">
+                        <div className='AboutDesktopText'>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div className='AboutDesktopImg'></div>
+                    </div>
+
+                    <div className="AboutMini">
+                        <div className='AboutDesktopImg'></div>
+                        <div className='AboutDesktopText'>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
-            
-        </div>
     )
 }
 

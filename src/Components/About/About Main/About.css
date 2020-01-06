@@ -16,8 +16,10 @@
 }
 
 #whatwedo {
-    font-size: 70px;
+    font-size: 35px;
+    width: 80vw;
     color: rgb(85, 85, 85);
+    margin: auto;
 }
 
 .InnerText {
@@ -49,6 +51,10 @@ img {
     justify-content: center;
 }
 
+.AboutDesktop {
+    display: none;
+}
+
 .AboutMiniSections {
     display: flex;
     flex-direction: column;
@@ -77,5 +83,34 @@ img {
 
 .AboutHidden p{
     display: none;
+}
+
+@media screen and (min-width: 800px){
+    .AboutClick {
+        display: none;
+    }
+
+    .AboutMini {
+        display: flex;
+        margin: 20px;
+    }
+
+    .AboutDesktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AboutDesktopImg {
+        width: 30vw;
+        height: 30vw;
+        background-color: maroon;
+    }
+
+    .AboutDesktopText {
+        width: 30vw;
+        height: 30vw;
+    }
 }
 
