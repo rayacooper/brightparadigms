@@ -1,5 +1,6 @@
 .HomePageMain {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
 }
@@ -10,9 +11,42 @@
     width: 100%;
 }
 
+.HomePageStories {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 5, 61);
+}
+
+.HomePageStory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomePageStory span {
+    width: 80vw;
+    color: white;
+}
+
+.HomePageStory p {
+    text-align: left;
+}
+
 
 @media screen and (min-width: 800px){
     .HomePageMain img {
         width: 100vw;
+    }
+
+    .HomePageStory {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .HomePageStory span {
+        width: 40vw;
+        padding: 30px;
+        color: white;
     }
 }

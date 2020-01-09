@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   /* width: 100vw; */
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  text-indent: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

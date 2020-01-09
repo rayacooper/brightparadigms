@@ -8,20 +8,34 @@
 }
 
 .NewsEntry {
-    width: 80vw;
+    width: 100vw;
     margin-bottom: 30px;
 }
 
 .NewsEntryInner {
     display: flex;
+    flex-direction: column;
 }
 
 .NewsEntryInner img {
-    width: 40vw;
+    width: 100vw;
 }
 
 .NewsEntryInner p {
+    text-align: left;
     padding: 30px;
 }    
 
 
+@media screen and (min-width: 800px){
+    .NewsEntryInner img {
+        width: 40vw;
+    }
+
+    .NewsEntryInner {
+        display: flex;
+        flex-direction: row;
+        margin: 40px;
+    }
+
+}
