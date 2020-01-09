@@ -51,6 +51,11 @@ img {
     justify-content: center;
 }
 
+.Arrow {
+    width: 25px;
+    opacity: 50%;
+}
+
 .AboutDesktop {
     display: none;
 }
@@ -79,6 +84,7 @@ img {
     background-color: rgb(65, 65, 65);
     color: white;
     width: 80vw;
+    border-radius: 4px;
 }
 
 .AboutHidden p{

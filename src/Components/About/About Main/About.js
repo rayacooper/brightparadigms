@@ -1,7 +1,10 @@
 import React, {useState} from 'react';
 
 import './About.css'
-import Lights from './../../../Assets/lamp-image-dark.jpg'
+import Lights from './../../../Assets/lamp-image-dark.jpg';
+import Arrow from './../../../Assets/Carat_Symbol.png';
+import ArrowReverse from './../../../Assets/Carat_Symbol_Reverse.png';
+import ArrowDown from './../../../Assets/Carat_Symbol_Down.png';
 
 const About = () => {
 
@@ -35,7 +38,11 @@ const About = () => {
 
                 <div className="AboutClick">
                     <div className={lightingVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutShading'>
-                        <h1 onClick={() => updateLightingVisible(!lightingVisible)}>Lighting</h1>
+                        <h1 onClick={() => updateLightingVisible(!lightingVisible)}>
+                        <img className='Arrow' src={lightingVisible ? ArrowDown : Arrow}/>
+                            Lighting 
+                        <img className='Arrow' src={lightingVisible ? ArrowDown : ArrowReverse}/> </h1>
+                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -46,7 +53,11 @@ const About = () => {
                     </div>
 
                     <div className={shadingVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutShading'>
-                        <h1 onClick={() => updateShadingVisible(!shadingVisible)}>Shading</h1>
+                        <h1 onClick={() => updateShadingVisible(!shadingVisible)}>
+                        <img className='Arrow' src={shadingVisible ? ArrowDown : Arrow}/>
+                            Shading
+                        <img className='Arrow' src={shadingVisible ? ArrowDown : ArrowReverse}/>
+                        </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -57,7 +68,11 @@ const About = () => {
                     </div>
 
                     <div className={temperatureVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutTemperature'>
-                        <h1 onClick={() => updateTemperatureVisible(!temperatureVisible)}>Temperature</h1>
+                        <h1 onClick={() => updateTemperatureVisible(!temperatureVisible)}>
+                        <img className='Arrow' src={temperatureVisible ? ArrowDown : Arrow}/>
+                            Temperature
+                        <img className='Arrow' src={temperatureVisible ? ArrowDown : ArrowReverse}/>
+                        </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
