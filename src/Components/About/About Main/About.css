@@ -16,7 +16,7 @@
 }
 
 #whatwedo {
-    font-size: 35px;
+    font-size: 20px;
     width: 80vw;
     color: rgb(85, 85, 85);
     margin: auto;
@@ -42,6 +42,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgb(211, 211, 211);
 }
 
 .AboutClick {
@@ -75,9 +76,27 @@ img {
 }
 
 .AboutMiniSections h1 {
-    background-color: rgb(65, 65, 65);
+    /* background-color: rgb(65, 65, 65); */
     color: white;
     width: 80vw;
+    padding: 20px;
+    margin-top: -10px;
+    border-radius: 4px;
+}
+
+#AbtLight {
+    background-image: url('./../../../Assets/Green_Turtle_Interior.jpg');
+    background-size: cover;
+}
+
+#AbtShade {
+    background-image: url('./../../../Assets/Tavaci_Kitchen.jpg');
+    background-size: cover;
+}
+
+#AbtTemp {
+    background-image: url('./../../../Assets/Tavaci_Exterior.jpg');
+    background-size: cover;
 }
 
 .AboutHidden h1 {
@@ -85,6 +104,8 @@ img {
     color: white;
     width: 80vw;
     border-radius: 4px;
+    padding: 20px;
+    margin-top: -10px;
 }
 
 .AboutHidden p{

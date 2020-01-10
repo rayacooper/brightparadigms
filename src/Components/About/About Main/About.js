@@ -26,7 +26,7 @@ const About = () => {
                 </div>
 
                 <div id='whatwedo'>
-                    <h1>WHAT WE DO</h1>
+                    <h1>What we do</h1>
                 </div>
                 
 
@@ -38,7 +38,7 @@ const About = () => {
 
                 <div className="AboutClick">
                     <div className={lightingVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutShading'>
-                        <h1 onClick={() => updateLightingVisible(!lightingVisible)}>
+                        <h1 id='AbtLight' onClick={() => updateLightingVisible(!lightingVisible)}>
                         <img className='Arrow' src={lightingVisible ? ArrowDown : Arrow}/>
                             Lighting 
                         <img className='Arrow' src={lightingVisible ? ArrowDown : ArrowReverse}/> </h1>
@@ -53,7 +53,7 @@ const About = () => {
                     </div>
 
                     <div className={shadingVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutShading'>
-                        <h1 onClick={() => updateShadingVisible(!shadingVisible)}>
+                        <h1 id='AbtShade' onClick={() => updateShadingVisible(!shadingVisible)}>
                         <img className='Arrow' src={shadingVisible ? ArrowDown : Arrow}/>
                             Shading
                         <img className='Arrow' src={shadingVisible ? ArrowDown : ArrowReverse}/>
@@ -68,7 +68,7 @@ const About = () => {
                     </div>
 
                     <div className={temperatureVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutTemperature'>
-                        <h1 onClick={() => updateTemperatureVisible(!temperatureVisible)}>
+                        <h1 id='AbtTemp' onClick={() => updateTemperatureVisible(!temperatureVisible)}>
                         <img className='Arrow' src={temperatureVisible ? ArrowDown : Arrow}/>
                             Temperature
                         <img className='Arrow' src={temperatureVisible ? ArrowDown : ArrowReverse}/>
