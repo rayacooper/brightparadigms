@@ -2,7 +2,8 @@ import React from 'react';
 
 import './HomePage.css'
 
-import House from './../../Assets/Main-House.jpg';
+// import House from './../../Assets/Main-House.jpg';
+import HouseLogo from './../../Assets/Main-House-Logo.jpg';
 import TavaciExterior from './../../Assets/Tavaci_Exterior.jpg';
 import TavaciKitchen from './../../Assets/Tavaci_Kitchen.jpg';
 import GreenInterior from './../../Assets/Green_Turtle_Interior.jpg';
@@ -10,7 +11,7 @@ import GreenInterior from './../../Assets/Green_Turtle_Interior.jpg';
 const HomePage = () => {
     return(
         <div className="HomePageMain">
-            <img src={House} alt='Home Photography'/>
+            <img src={HouseLogo} alt='Home Photography'/>
             <div className="HomePageStories">
                 <div className='HomePageStory'>
                     <img src={TavaciExterior} alt='Exterior'/>
