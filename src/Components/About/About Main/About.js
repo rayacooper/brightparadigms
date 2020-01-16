@@ -5,6 +5,9 @@ import Lights from './../../../Assets/lamp-image-dark.jpg';
 import Arrow from './../../../Assets/Carat_Symbol.png';
 import ArrowReverse from './../../../Assets/Carat_Symbol_Reverse.png';
 import ArrowDown from './../../../Assets/Carat_Symbol_Down.png';
+// import LightGif from './../../../Assets/Greatroom-All-Frames.gif';
+import TavaciExterior from './../../../Assets/Tavaci_Exterior.jpg';
+import TavaciKitchen from './../../../Assets/Tavaci_Kitchen.jpg'
 
 const About = () => {
 
@@ -88,17 +91,14 @@ const About = () => {
 
                     <div className="AboutMini">
                         <div className='AboutDesktopImg'>
-                            <h2>LIGHTING</h2>
-                            <img src={Lights} />
+                            <h2>Lighting</h2>
+                            <img src={TavaciKitchen} />
                         </div>
                         <div className='AboutDesktopText'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                            nisi ut aliquip ex ea commodo consequat. </p>
                         </div>
                     </div>
 
@@ -107,30 +107,24 @@ const About = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                            nisi ut aliquip ex ea commodo consequat. </p>
                         </div>
                         <div className='AboutDesktopImg'>
                             <h2>SHADING</h2>
-                            <img src={Lights} />
+                            <img src={TavaciKitchen} />
                         </div>
                     </div>
 
                     <div className="AboutMini">
                         <div className='AboutDesktopImg'>
                             <h2>TEMPERATURE</h2>
-                            <img src={Lights} />
+                            <img src={TavaciExterior} />
                         </div>
                         <div className='AboutDesktopText'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                            nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                     </div>
                 </div>

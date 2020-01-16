@@ -12,7 +12,7 @@ function App() {
       <Router>
         <NavBar />
         {Routes}
-        <Contact />
+        <a id='ContactUs'><Contact/></a>
       </Router>
     
     </div>

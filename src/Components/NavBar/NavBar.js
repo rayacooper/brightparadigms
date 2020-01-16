@@ -33,6 +33,7 @@ const NavBar = () => {
                 <Link className='LinkLink' to='/' >Home</Link>
                 <Link className='LinkLink' to='/about' >About Us</Link>
                 <Link className='LinkLink' to='/news' >News</Link>
+                <a className='LinkLink' href='#ContactUs'>Contact</a>
             </div>
 
             <div className="NavBarHamburger" onClick={() => clickMenu()}>
@@ -44,6 +45,7 @@ const NavBar = () => {
                     <li><Link className='LinkLink' to='/' onClick={() => updateDropDown(false)}>Home</Link></li>
                     <li><Link className='LinkLink' to='/about' onClick={() => updateDropDown(false)}>About</Link></li>
                     <li><Link className='LinkLink' to='/news' onClick={() => updateDropDown(false)}>News</Link></li>
+                    <li><a className='LinkLink' href='#ContactUs'>Contact</a></li>
                 </ul>
             </div>
             
