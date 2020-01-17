@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './News.css'
+import './Projects.css'
 
 import Photo from './../../Assets/lamp-image-dark.jpg'
 
