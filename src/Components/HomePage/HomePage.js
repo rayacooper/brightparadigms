@@ -3,7 +3,7 @@ import React from 'react';
 import './HomePage.css'
 
 // import House from './../../Assets/Main-House.jpg';
-import HouseLogo from './../../Assets/Main-House-Logo.jpg';
+import HouseLogo from './../../Assets/Main-House.jpg';
 import TavaciExterior from './../../Assets/Tavaci_Exterior.jpg';
 import TavaciKitchen from './../../Assets/Tavaci_Kitchen.jpg';
 import GreenInterior from './../../Assets/Green_Turtle_Interior.jpg';

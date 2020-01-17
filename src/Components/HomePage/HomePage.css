@@ -36,7 +36,8 @@
 
 @media screen and (min-width: 800px){
     .HomePageMain img {
-        width: 100vw;
+        background-color: black;
+        width: 70vw;
     }
 
     .HomePageStory {
