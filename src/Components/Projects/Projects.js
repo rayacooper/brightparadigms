@@ -11,7 +11,7 @@ const News = () => {
                 <h2>Bright Paradigms Launch</h2>
                 <p>02.03.2020</p>
                 <div className="NewsEntryInner">
-                    <img src={Photo} />
+                    <img src={Photo} alt='Project'/>
                         <p>
                             We here at Bright Paradigms are excited for our launch.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

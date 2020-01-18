@@ -21,10 +21,10 @@ const NavBar = () => {
         <div className="NavBarMain">
             <Link className='NavBarLogo' to='/'>
                 <div className="NavBarLogo">
-                    <img id='logo' src={LogoCropped} />
-                    <img id='logocropped' src={LogoRight} />
-                    <img id='lettering' src={Lettering} />
-                    <img id='letteringmobile' src={LetteringMobile} />
+                    <img id='logo' src={LogoCropped} alt='Bright Paradigms'/>
+                    <img id='logocropped' src={LogoRight} alt='Bright Paradigms'/>
+                    <img id='lettering' src={Lettering} alt='Bright Paradigms'/>
+                    <img id='letteringmobile' src={LetteringMobile} alt='Bright Paradigms'/>
                 </div>  
             </Link>
             

@@ -6,7 +6,7 @@ import './HomePage.css'
 import HouseLogo from './../../Assets/Main-House.jpg';
 import TavaciExterior from './../../Assets/Tavaci_Exterior.jpg';
 import TavaciKitchen from './../../Assets/Tavaci_Kitchen.jpg';
-import GreenInterior from './../../Assets/Green_Turtle_Interior.jpg';
+// import GreenInterior from './../../Assets/Green_Turtle_Interior.jpg';
 
 const HomePage = () => {
     return(
@@ -16,7 +16,7 @@ const HomePage = () => {
                 <div className='HomePageStory'>
                     <img src={TavaciExterior} alt='Exterior'/>
                     <span>
-                        <h3>The Tavaci House</h3>
+                        <h3>Home Experience</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -30,7 +30,7 @@ const HomePage = () => {
                 <div className='HomePageStory'>
                     <img src={TavaciKitchen} alt='Kitchen'/>
                     <span>
-                        <h3>Tavaci Kitchen</h3>
+                        <h3>System Control</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -40,7 +40,7 @@ const HomePage = () => {
                             culpa qui officia deserunt mollit anim id est laborum.</p>
                     </span>
                 </div>
-
+{/* 
                 <div className='HomePageStory'>
                     <img src={GreenInterior} alt='Interior'/>
                     <span>
@@ -53,7 +53,7 @@ const HomePage = () => {
                             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                             culpa qui officia deserunt mollit anim id est laborum.</p>
                     </span>
-                </div>
+                </div> */}
 
             </div>
         </div>

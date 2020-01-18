@@ -3,18 +3,19 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .HomePageMain img {
     height: 90vh;
     object-fit: cover;
     width: 100%;
+    margin: 0px 0px 3vw 0px;
 }
 
 .HomePageStories {
     display: flex;
     flex-direction: column;
-    background-color: rgb(5, 5, 61);
 }
 
 .HomePageStory {
@@ -25,7 +26,7 @@
 }
 
 .HomePageStory span {
-    width: 80vw;
+    width: 90vw;
     color: white;
 }
 
@@ -35,18 +36,29 @@
 
 
 @media screen and (min-width: 800px){
+
+    .HomePageMain {
+        align-items: center;
+        background-color: black;
+    }
+
     .HomePageMain img {
         background-color: black;
         width: 70vw;
     }
 
     .HomePageStory {
+        width: 70vw;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .HomePageStory img {
+        width: 100%;
     }
 
     .HomePageStory span {
-        width: 40vw;
+        width: 80%;
         padding: 30px;
         color: white;
     }

@@ -1,17 +1,15 @@
 import React, {useState} from 'react';
 
 import './About.css'
-import Lights from './../../../Assets/lamp-image-dark.jpg';
 import Arrow from './../../../Assets/Carat_Symbol.png';
 import ArrowReverse from './../../../Assets/Carat_Symbol_Reverse.png';
 import ArrowDown from './../../../Assets/Carat_Symbol_Down.png';
-// import LightGif from './../../../Assets/Greatroom-All-Frames.gif';
 import TavaciExterior from './../../../Assets/Tavaci_Exterior.jpg';
-import TavaciKitchen from './../../../Assets/Tavaci_Kitchen.jpg'
+import TavaciKitchen from './../../../Assets/Tavaci_Kitchen.jpg';
+import GreenTurtle from './../../../Assets/Green_Turtle_Interior.jpg';
 
 const About = () => {
 
-    let [forrestVisible, updateForrestVisible] = useState(false);
     let [lightingVisible, updateLightingVisible] = useState(false);
     let [shadingVisible, updateShadingVisible] = useState(false);
     let [temperatureVisible, updateTemperatureVisible] = useState(false);
@@ -33,18 +31,12 @@ const About = () => {
                 </div>
                 
 
-                {/* <div className={forrestVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutForrest'>
-                    <h1 onClick={() => updateForrestVisible(!forrestVisible)}>Forrest</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div> */}
-
                 <div className="AboutClick">
                     <div className={lightingVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutShading'>
                         <h1 id='AbtLight' onClick={() => updateLightingVisible(!lightingVisible)}>
-                        <img className='Arrow' src={lightingVisible ? ArrowDown : Arrow}/>
+                        <img className='Arrow' src={lightingVisible ? ArrowDown : Arrow} alt='Dropdown'/>
                             Lighting 
-                        <img className='Arrow' src={lightingVisible ? ArrowDown : ArrowReverse}/> </h1>
+                        <img className='Arrow' src={lightingVisible ? ArrowDown : ArrowReverse} alt='Dropdown'/> </h1>
                         
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -57,9 +49,9 @@ const About = () => {
 
                     <div className={shadingVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutShading'>
                         <h1 id='AbtShade' onClick={() => updateShadingVisible(!shadingVisible)}>
-                        <img className='Arrow' src={shadingVisible ? ArrowDown : Arrow}/>
+                        <img className='Arrow' src={shadingVisible ? ArrowDown : Arrow} alt='Dropdown'/>
                             Shading
-                        <img className='Arrow' src={shadingVisible ? ArrowDown : ArrowReverse}/>
+                        <img className='Arrow' src={shadingVisible ? ArrowDown : ArrowReverse} alt='Dropdown'/>
                         </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -72,9 +64,9 @@ const About = () => {
 
                     <div className={temperatureVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutTemperature'>
                         <h1 id='AbtTemp' onClick={() => updateTemperatureVisible(!temperatureVisible)}>
-                        <img className='Arrow' src={temperatureVisible ? ArrowDown : Arrow}/>
+                        <img className='Arrow' src={temperatureVisible ? ArrowDown : Arrow} alt='Dropdown'/>
                             Temperature
-                        <img className='Arrow' src={temperatureVisible ? ArrowDown : ArrowReverse}/>
+                        <img className='Arrow' src={temperatureVisible ? ArrowDown : ArrowReverse} alt='Dropdown'/>
                         </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -92,7 +84,7 @@ const About = () => {
                     <div className="AboutMini">
                         <div className='AboutDesktopImg'>
                             <h2>Lighting</h2>
-                            <img src={TavaciKitchen} />
+                            <img src={GreenTurtle} alt='Kitchen Interior'/>
                         </div>
                         <div className='AboutDesktopText'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -111,14 +103,14 @@ const About = () => {
                         </div>
                         <div className='AboutDesktopImg'>
                             <h2>SHADING</h2>
-                            <img src={TavaciKitchen} />
+                            <img src={TavaciKitchen} alt='Living Space'/>
                         </div>
                     </div>
 
                     <div className="AboutMini">
                         <div className='AboutDesktopImg'>
                             <h2>TEMPERATURE</h2>
-                            <img src={TavaciExterior} />
+                            <img src={TavaciExterior} alt='Outdoor Scene'/>
                         </div>
                         <div className='AboutDesktopText'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

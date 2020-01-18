@@ -81,6 +81,10 @@ li {
         margin-right: 5vw;
     }
 
+    #lettering {
+        margin-left: 10px;
+    }
+
     #logo {
         display: block;
         margin-left: 30px;

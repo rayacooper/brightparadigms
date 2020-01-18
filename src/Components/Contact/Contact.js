@@ -4,17 +4,15 @@ import './Contact.css'
 
 const Contact = () => {
 
-
     return(
         <div className='ContactMain'>
 
             <div className="ContactInner">
                 <p><b>CONNECT</b></p>
                 <br />
-                <a href='#' target='blank'><p>YOUTUBE</p></a>
-                <a href='#' target='blank'><p>FACEBOOK</p></a>
-                <a href='#' target='blank'><p>INSTAGRAM</p></a>
-                {/* <p>TWITTER</p>  */}
+                <a href='http://www.youtube.com' target='blank'><p>YOUTUBE</p></a>
+                <a href='http://www.facebook.com' target='blank'><p>FACEBOOK</p></a>
+                <a href='http://instagram.com' target='blank'><p>INSTAGRAM</p></a>
             </div>
 
             <div className="ContactInner">
