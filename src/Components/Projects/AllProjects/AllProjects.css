@@ -1,0 +1,26 @@
+.ProjectPostMain {
+    width: 80vw;
+    margin: auto;
+}
+
+.ProjectPostInner{
+    display: flex;
+    margin: 10px 0px 10px 0px
+}
+
+.ProjectPostInner img {
+    width:40vw;
+}
+
+@media screen and (min-width: 800px){
+    .ProjectPostInner{
+        display: flex;
+        margin: 30px 0px 30px 0px;
+        text-align: left;
+    }
+
+    .ProjectPostInner p {
+        width: 30vw;
+        padding-left: 3vw;
+    }
+}

@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 
 import './About.css'
-import Arrow from './../../../Assets/Carat_Symbol.png';
-import ArrowReverse from './../../../Assets/Carat_Symbol_Reverse.png';
-import ArrowDown from './../../../Assets/Carat_Symbol_Down.png';
-import TavaciExterior from './../../../Assets/Tavaci_Exterior.jpg';
-import TavaciKitchen from './../../../Assets/Tavaci_Kitchen.jpg';
-import GreenTurtle from './../../../Assets/Green_Turtle_Interior.jpg';
+import Arrow from './../../Assets/Carat_Symbol.png';
+import ArrowReverse from './../../Assets/Carat_Symbol_Reverse.png';
+import ArrowDown from './../../Assets/Carat_Symbol_Down.png';
+import TavaciExterior from './../../Assets/Tavaci_Exterior.jpg';
+import TavaciKitchen from './../../Assets/Tavaci_Kitchen.jpg';
+import GreenTurtle from './../../Assets/Green_Turtle_Interior.jpg';
 
 const About = () => {
 

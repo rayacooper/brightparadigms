@@ -12,7 +12,7 @@ function App() {
       <Router>
         <NavBar />
         {Routes}
-        <a id='ContactUs' href='#'><Contact/></a>
+        <a id='ContactUs' href='#ContactUs'><Contact/></a>
       </Router>
     
     </div>
