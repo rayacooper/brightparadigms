@@ -12,6 +12,8 @@ const HomePage = () => {
     return(
         <div className="HomePageMain">
             <img src={HouseLogo} alt='Home Photography'/>
+            {/*
+                This is all the extra stuff on the homepage, might not be needed:
             <div className="HomePageStories">
                 <div className='HomePageStory'>
                     <img src={TavaciExterior} alt='Exterior'/>
@@ -53,9 +55,9 @@ const HomePage = () => {
                             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                             culpa qui officia deserunt mollit anim id est laborum.</p>
                     </span>
-                </div> */}
+                </div>
 
-            </div>
+            </div> */}
         </div>
     )
 }

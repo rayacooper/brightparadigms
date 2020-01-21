@@ -61,29 +61,6 @@ img {
     display: none;
 }
 
-.AboutMiniSections {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.AboutMiniSections p{
-    display: block;
-    width: 70vw;
-    text-align: left;
-    color: rgb(53, 53, 53);
-}
-
-.AboutMiniSections h1 {
-    /* background-color: rgb(65, 65, 65); */
-    color: white;
-    width: 80vw;
-    padding: 20px;
-    margin-top: -10px;
-    border-radius: 4px;
-}
-
 #AbtLight {
     background-image: url('./../../Assets/Green_Turtle_Interior.jpg');
     background-size: cover;
@@ -99,14 +76,35 @@ img {
     background-size: cover;
 }
 
+.AboutMiniSections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutMiniSections h1 {
+    color: white;
+    width: 80vw;
+    padding: 20px;
+    margin-top: -3px;
+    border-radius: 4px;
+}
+
 .AboutHidden h1 {
-    background-color: rgb(65, 65, 65);
     color: white;
     width: 80vw;
     border-radius: 4px;
     padding: 20px;
     margin-top: -3px;
     text-align: center;
+}
+
+.AboutMiniSections p{
+    display: block;
+    width: 70vw;
+    text-align: left;
+    color: rgb(53, 53, 53);
 }
 
 .AboutHidden p{

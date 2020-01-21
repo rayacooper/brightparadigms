@@ -83,7 +83,7 @@ const About = () => {
 
                     <div className="AboutMini">
                         <div className='AboutDesktopImg'>
-                            <h2>Lighting</h2>
+                            <h2>LIGHTING</h2>
                             <img src={GreenTurtle} alt='Kitchen Interior'/>
                         </div>
                         <div className='AboutDesktopText'>
