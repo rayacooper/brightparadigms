@@ -7,6 +7,7 @@ import ArrowDown from './../../Assets/Carat_Symbol_Down.png';
 import TavaciExterior from './../../Assets/Tavaci_Exterior.jpg';
 import TavaciKitchen from './../../Assets/Tavaci_Kitchen.jpg';
 import GreenTurtle from './../../Assets/Green_Turtle_Interior.jpg';
+import LightingExample from './../../Assets/Greatroom-All-Frames.gif';
 
 const About = () => {
 
@@ -27,7 +28,7 @@ const About = () => {
                 </div>
 
                 <div id='whatwedo'>
-                    <h1>What we do</h1>
+                    <h1>WHAT WE DO</h1>
                 </div>
                 
 
@@ -84,7 +85,7 @@ const About = () => {
                     <div className="AboutMini">
                         <div className='AboutDesktopImg'>
                             <h2>LIGHTING</h2>
-                            <img src={GreenTurtle} alt='Kitchen Interior'/>
+                            <img src={LightingExample} alt='Kitchen Interior'/>
                         </div>
                         <div className='AboutDesktopText'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
