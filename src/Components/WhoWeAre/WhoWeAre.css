@@ -1,6 +1,8 @@
 .WhoMain {
     display: flex;
     flex-direction: column;
+    background-color: rgb(48, 47, 47);
+    color: white;
 }
 
 .WhoInner h1 {
