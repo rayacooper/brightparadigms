@@ -12,7 +12,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20vh;
+    padding-top: 15vh;
+    font-size: 5vw;
 }
 
 #whatwedo {
@@ -112,6 +113,14 @@ img {
 }
 
 @media screen and (min-width: 800px){
+    #AboutIntro {
+        font-size: 2vw;
+    }
+
+    #whatwedo {
+        font-size: 2vw;
+    }
+
     .AboutClick {
         display: none;
     }
@@ -130,7 +139,7 @@ img {
 
     .AboutDesktopImg {
         width: 40vw;
-        background-color: rgb(58, 58, 58);
+        background-color: rgb(48, 47, 47);
         border-radius: 4px;
         margin-bottom: 40px;
         font-size: 2vw;

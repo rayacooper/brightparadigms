@@ -5,13 +5,13 @@
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(48, 47, 47);
 }
 
 .NewsEntry {
     width: 80vw;
     margin: 10px 0px 10px 0px;
-    background-color: rgb(39, 39, 39);
+    background-color: black;
     color: white;
     padding: 4vw;
     border-radius: 4px;
@@ -19,7 +19,7 @@
 
 .NewsEntry h1{
     margin-top: -2px;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 
@@ -29,13 +29,15 @@
     }
 
     .NewsEntry {
+        box-sizing: border-box;
         width: 25vw;
+        height: 25vw;
         margin: 30px 0px 30px 0px;
     }
 
     .NewsEntry h1{
-        margin-top: -10px;
-        font-size: 1vw;
+        margin-top: -2vw;
+        font-size: 2vw;
     }
 
 }
