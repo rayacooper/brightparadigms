@@ -17,14 +17,14 @@ const News = () => {
                 </div>
             </a>
 
-            <Link to='/projects/projectx'>
+            <Link to='/portfolio/projectx'>
                 <div className='NewsEntry'>
                     <h1>Penguin Zoo Project</h1>
                     <img src={Photo} alt='Project'/>
                 </div>
             </Link>
 
-            <Link to='/projects/projectx'>
+            <Link to='/portfolio/projectx'>
                 <div className='NewsEntry'>
                     <h1>Project Y</h1>
                     <img src={Photo} alt='Project'/>

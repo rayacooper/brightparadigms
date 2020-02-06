@@ -33,7 +33,7 @@ const NavBar = () => {
                 <Link className='LinkLink' to='/' >Home</Link>
                 <Link className='LinkLink' to='/about' >What We Do</Link>
                 <Link className='LinkLink' to='/whoweare'>Who We Are</Link>
-                <Link className='LinkLink' to='/projects' >Projects</Link>
+                <Link className='LinkLink' to='/portfolio' >Portfolio</Link>
                 <a className='LinkLink' href='#ContactUs'>Contact</a>
             </div>
 
@@ -46,7 +46,7 @@ const NavBar = () => {
                     <li><Link className='LinkLink' to='/' onClick={() => updateDropDown(false)}>Home</Link></li>
                     <li><Link className='LinkLink' to='/about' onClick={() => updateDropDown(false)}>What We Do</Link></li>
                     <li><Link className='LinkLink' to='/whoweare' onClick={() => updateDropDown(false)}>Who We Are</Link></li>
-                    <li><Link className='LinkLink' to='/projects' onClick={() => updateDropDown(false)}>Projects</Link></li>
+                    <li><Link className='LinkLink' to='/portfolio' onClick={() => updateDropDown(false)}>Portfolio</Link></li>
                     <li><a className='LinkLink' href='#ContactUs' onClick={() => updateDropDown(false)}>Contact</a></li>
                 </ul>
             </div>

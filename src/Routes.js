@@ -10,8 +10,8 @@ import ProjectX from './Components/Projects/AllProjects/Project X';
 export default (
     <Switch>
         <Route component={About} path='/about'/>
-        <Route component={ProjectX} path='/projects/projectx'/>
-        <Route component={Projects} path='/projects'/>
+        <Route component={ProjectX} path='/portfolio/projectx'/>
+        <Route component={Projects} path='/portfolio'/>
         <Route component={WhoWeAre} path='/whoweare'/>
         <Route component={HomePage} path='/'/>
     </Switch>

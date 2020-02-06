@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 70px;
+    height: 10vh;
     background-color: black;
     color: white;
 }
@@ -35,6 +35,12 @@
 
 .NavBarLinks {
     display: none;
+}
+
+.NavBarHamburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .NavBarHamburger img {
@@ -72,7 +78,7 @@ li {
     background-color: black;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 925px){
     .NavBarLinks {
         display: flex;
         width: 50vw;

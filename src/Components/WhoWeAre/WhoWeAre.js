@@ -2,7 +2,7 @@ import React from 'react';
 
 import './WhoWeAre.css'
 
-import ForrestGKelsey from './../../Assets/DSC_0671-Edit.jpg';
+import ForrestGKelsey from './../../Assets/Forrest_G_Kelsey_Portrait.jpg';
 
 function WhoWeAre(){
     return(
@@ -11,7 +11,7 @@ function WhoWeAre(){
             <h1>Forrest D Kelsey</h1>
             <h4>Presidend and Chief Technical Officer</h4>
                 <div className='WhoRow'>
-                <img src='#' alt='Forrest D Kelsey'/>
+                <img src={ForrestGKelsey} alt='Forrest D Kelsey'/>
                 <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
@@ -20,7 +20,7 @@ function WhoWeAre(){
                         culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
-            <div className='WhoInner'>
+            <div className='WhoInner' id="ForrestG">
                 <h1>Forrest G Kelsey</h1>
                 <h4>Chief Executive Officer</h4>
                 <div className="WhoRow">
