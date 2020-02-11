@@ -144,6 +144,10 @@ img {
         margin-bottom: 40px;
         font-size: 2vw;
     }
+    
+    #Shades {
+        width: 40vw;
+    }
 
     .AboutDesktopText {
         width: 30vw;

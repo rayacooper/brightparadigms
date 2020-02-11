@@ -6,7 +6,7 @@ import ArrowReverse from './../../Assets/Carat_Symbol_Reverse.png';
 import ArrowDown from './../../Assets/Carat_Symbol_Down.png';
 import TavaciExterior from './../../Assets/Tavaci_Exterior.jpg';
 import TavaciKitchen from './../../Assets/Tavaci_Kitchen.jpg';
-import GreenTurtle from './../../Assets/Green_Turtle_Interior.jpg';
+import ShadingVid from './../../Assets/Short_shades_demo_clip.mp4';
 import LightingExample from './../../Assets/Greatroom-All-Frames.gif';
 
 const About = () => {
@@ -65,7 +65,7 @@ const About = () => {
                     <div className={temperatureVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutTemperature'>
                         <h1 id='AbtTemp' onClick={() => updateTemperatureVisible(!temperatureVisible)}>
                         <img className='Arrow' src={temperatureVisible ? ArrowDown : Arrow} alt='Dropdown'/>
-                            Temperature
+                            Comfort Control
                         <img className='Arrow' src={temperatureVisible ? ArrowDown : ArrowReverse} alt='Dropdown'/>
                         </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -103,13 +103,16 @@ const About = () => {
                         </div>
                         <div className='AboutDesktopImg'>
                             <h2>SHADING</h2>
-                            <img src={TavaciKitchen} alt='Living Space'/>
+                            <video id='Shades' autoPlay>
+                                <source src={ShadingVid} type="video/mp4" />>
+                                {/* <source src={'#'} type="video/ogg" />> */}
+                            </video>
                         </div>
                     </div>
 
                     <div className="AboutMini">
                         <div className='AboutDesktopImg'>
-                            <h2>TEMPERATURE</h2>
+                            <h2>COMFORT CONTROL</h2>
                             <img src={TavaciExterior} alt='Outdoor Scene'/>
                         </div>
                         <div className='AboutDesktopText'>

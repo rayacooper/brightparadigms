@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import HomePage from './Components/HomePage/HomePage';
 import Projects from './Components/Projects/Projects';
 import WhoWeAre from './Components/WhoWeAre/WhoWeAre';
+import Videos from './Components/WhoWeAre/Videos'
 import ProjectX from './Components/Projects/AllProjects/Project X';
 
 export default (
@@ -13,6 +14,7 @@ export default (
         <Route component={ProjectX} path='/portfolio/projectx'/>
         <Route component={Projects} path='/portfolio'/>
         <Route component={WhoWeAre} path='/whoweare'/>
+        <Route component={Videos} path='/whoweare/videos'/>
         <Route component={HomePage} path='/'/>
     </Switch>
 )
