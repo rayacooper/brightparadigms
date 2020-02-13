@@ -7,13 +7,13 @@
 
 #AboutIntro {
     background-image: url('./../../Assets/lamp-image-dark.jpg');
-    height: 75vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15vh;
-    font-size: 5vw;
+    justify-content: center;
+    padding: 9vh 0px 3vh 0px;
+    font-size: 4vw;
 }
 
 #whatwedo {
@@ -54,8 +54,9 @@ img {
 }
 
 .Arrow {
-    width: 25px;
+    width: 4vw;
     opacity: 50%;
+    padding: 1vw;
 }
 
 .AboutDesktop {
@@ -90,22 +91,23 @@ img {
     padding: 20px;
     margin-top: -3px;
     border-radius: 4px;
+    font-size: 1.7em;
 }
 
 .AboutHidden h1 {
     color: white;
     width: 80vw;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 20px;
     margin-top: -3px;
-    text-align: center;
+    font-size: 1.7em;
 }
 
 .AboutMiniSections p{
     display: block;
     width: 70vw;
     text-align: left;
-    color: rgb(53, 53, 53);
+    color: rgb(211, 208, 208);
 }
 
 .AboutHidden p{
@@ -114,7 +116,7 @@ img {
 
 @media screen and (min-width: 800px){
     #AboutIntro {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #whatwedo {
@@ -128,6 +130,7 @@ img {
     .AboutMini {
         display: flex;
         margin: 20px;
+        font-size: 10vh;
     }
 
     .AboutDesktop {
@@ -140,13 +143,14 @@ img {
     .AboutDesktopImg {
         width: 40vw;
         background-color: rgb(48, 47, 47);
-        border-radius: 4px;
+        border-radius: 8px;
         margin-bottom: 40px;
         font-size: 2vw;
     }
     
     #Shades {
         width: 40vw;
+        padding: none;
     }
 
     .AboutDesktopText {
@@ -155,10 +159,11 @@ img {
         padding: 30px;
         box-sizing: border-box;
         color: rgb(255, 255, 255);
+        text-align: left;
     }
 
     .AboutDesktopText p {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, withRouter} from 'react-router-dom';
 
 import './WhoWeAre.css'
 
@@ -19,6 +20,7 @@ function WhoWeAre(){
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                         culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
+                <Link to='/whoweare/videos'><p>See Forrest's Videos</p></Link>
             </div>
             <div className='WhoInner' id="ForrestG">
                 <h1>Forrest G Kelsey</h1>
@@ -43,4 +45,4 @@ function WhoWeAre(){
     )
 }
 
-export default WhoWeAre
+export default withRouter(WhoWeAre) 

@@ -13,8 +13,8 @@ export default (
         <Route component={About} path='/about'/>
         <Route component={ProjectX} path='/portfolio/projectx'/>
         <Route component={Projects} path='/portfolio'/>
-        <Route component={WhoWeAre} path='/whoweare'/>
         <Route component={Videos} path='/whoweare/videos'/>
+        <Route component={WhoWeAre} path='/whoweare'/>
         <Route component={HomePage} path='/'/>
     </Switch>
 )
