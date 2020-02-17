@@ -10,7 +10,7 @@ function WhoWeAre(){
         <div className="WhoMain">
             <div className='WhoInner'>
             <h1>Forrest D Kelsey</h1>
-            <h4>Presidend and Chief Technical Officer</h4>
+            <h4>President and Chief Technical Officer</h4>
                 <div className='WhoRow'>
                 <img src={ForrestGKelsey} alt='Forrest D Kelsey'/>
                 <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. 
