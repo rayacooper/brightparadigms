@@ -144,13 +144,13 @@ img {
         width: 40vw;
         background-color: rgb(48, 47, 47);
         border-radius: 8px;
-        margin-bottom: 40px;
+        padding-bottom: 4vw;
         font-size: 2vw;
     }
     
     #Shades {
         width: 40vw;
-        margin: -4vw -8vw -2vw -8vw;
+        margin: -5vw -8vw -4vw -8vw;
     }
 
     .AboutDesktopText {

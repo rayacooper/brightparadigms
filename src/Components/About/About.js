@@ -116,7 +116,7 @@ const About = () => {
                         </div>
                         <div className='AboutDesktopImg'>
                             <h2>SHADING</h2>
-                            <video id='Shades' autoplay loop>
+                            <video id='Shades' autoplay='autoplay' loop='loop'>
                                 <source src={ShadingVid} type="video/mp4" />>
                                 {/* <source src={'#'} type="video/ogg" />> */}
                             </video>
