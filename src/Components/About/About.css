@@ -150,7 +150,7 @@ img {
     
     #Shades {
         width: 40vw;
-        padding: none;
+        margin: -4vw -8vw -2vw -8vw;
     }
 
     .AboutDesktopText {
