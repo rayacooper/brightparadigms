@@ -52,7 +52,9 @@ function WhoWeAre(){
                     and has grown up around Vantage products most of his life. 
                     As a teenager he became familiar with the home automation 
                     industry by working as an installer for a small Vantage 
-                    Controls dealer. Prior to launching Bright Paradigms, 
+                    Controls dealer. 
+                    <br />
+                    Prior to launching Bright Paradigms, 
                     Forrest Grant worked as a District Manager as well as a 
                     Leadership Development Specialist for Wireless Advocates, 
                     the largest authorized retailer of the four major cell phone 
