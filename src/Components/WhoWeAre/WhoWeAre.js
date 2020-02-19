@@ -4,6 +4,7 @@ import {Link, withRouter} from 'react-router-dom';
 import './WhoWeAre.css'
 
 import ForrestGKelsey from './../../Assets/Forrest_G_Kelsey_Portrait.jpg';
+import ForrestDKelsey from './../../Assets/Forrest_D_Kelsey_Portrait.jpg';
 
 function WhoWeAre(){
     return(
@@ -12,13 +13,33 @@ function WhoWeAre(){
             <h1>Forrest D Kelsey</h1>
             <h4>President and Chief Technical Officer</h4>
                 <div className='WhoRow'>
-                <img src={ForrestGKelsey} alt='Forrest D Kelsey'/>
-                <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src={ForrestDKelsey} alt='Forrest D Kelsey'/>
+                <p>Forrest Dix Kelsey has over 30 years of combined 
+                    engineering experience in Residential, Commercial, 
+                    Industrial, and Defense industries. During his 
+                    transition into lighting control, he spent seven 
+                    years building his own company to became the 
+                    largest Vantage dealer in Utah and third largest 
+                    in the U.S. 
+                    <br />
+                    From there he went on to become the 
+                    Director of Technical Services for Vantage Controls 
+                    overseeing technical support; design services; 
+                    training; and LED Compatibility testing. 
+                    During this time he became the foremost authority 
+                    on LED dimming and has presented on the subject at 
+                    CEDIA. 
+                    <br />
+                    After ten years, an opportunity for learning 
+                    and growth lead Forrest to the company’s commercial 
+                    division (Wattsopper) where he has served as the 
+                    Director of Field Service Quality overseeing field techs; 
+                    tech support; and application engineers. He has built 
+                    a reputation as the authority for all Vantage Controls 
+                    Products and has trained hundreds of Vantage Controls 
+                    technicians. Forrest received his Bachelor’s degree 
+                    and Master’s degree in Electrical Engineering from 
+                    Brigham Young University.</p>
                 </div>
                 <Link to='/whoweare/videos'><p>See Forrest's Videos</p></Link>
             </div>

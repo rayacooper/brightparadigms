@@ -1,0 +1,37 @@
+[debug] [2020-02-19T04:54:33.017Z] ----------------------------------------------------------------------
+[debug] [2020-02-19T04:54:33.031Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sarah\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-02-19T04:54:33.031Z] CLI Version:   7.12.0
+[debug] [2020-02-19T04:54:33.031Z] Platform:      win32
+[debug] [2020-02-19T04:54:33.031Z] Node Version:  v10.16.0
+[debug] [2020-02-19T04:54:33.073Z] Time:          Tue Feb 18 2020 21:54:33 GMT-0700 (Mountain Standard Time)
+[debug] [2020-02-19T04:54:33.073Z] ----------------------------------------------------------------------
+[debug] [2020-02-19T04:54:33.073Z] 
+[debug] [2020-02-19T04:54:33.132Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-19T04:54:33.132Z] > authorizing via signed-in user
+[debug] [2020-02-19T04:54:33.132Z] [iam] checking project bright-paradigms for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-02-19T04:54:33.134Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-19T04:54:33.134Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-19T04:54:33.679Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-19T04:54:33.776Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/bright-paradigms:testIamPermissions  
+
+[debug] [2020-02-19T04:54:34.376Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-19T04:54:34.377Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/bright-paradigms  
+ 
+[debug] [2020-02-19T04:54:34.760Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'bright-paradigms'...
+[info] 
+[info] i  deploying hosting
+[debug] [2020-02-19T04:54:34.765Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/bright-paradigms/versions  
+
+[debug] [2020-02-19T04:54:35.563Z] <<< HTTP RESPONSE 200
+[info] i  hosting[bright-paradigms]: beginning deploy...
+[info] i  hosting[bright-paradigms]: found 42 files in build
+[debug] [2020-02-19T04:54:38.948Z] [hosting] hash cache [YnVpbGQ] stored for 42 files
+[debug] [2020-02-19T04:54:38.948Z] [hosting][hash queue][FINAL]
+[debug] [2020-02-19T04:54:38.948Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/bright-paradigms/versions/e628c221b64687f6:populateFiles  
+ <request body omitted>
+[debug] [2020-02-19T04:54:39.969Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-19T04:54:39.975Z] [hosting][populate queue][FINAL]
+[debug] [2020-02-19T04:54:39.975Z] [hosting] uploads queued: 16
