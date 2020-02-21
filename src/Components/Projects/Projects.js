@@ -14,20 +14,33 @@ const News = () => {
 
             {/* Images used to open the Lightbox         */}
             <div className="ProjectsRow">
-                <div className="ProjectsColumn">
-                    <img src="img1.jpg" onClick="openModal();currentSlide(1)" class="hover-shadow" />>
+                <a href='https://www.vantagecontrols.com/about/press-room/news/vantage-grandcanyon-visitor-center.aspx' target='blank'>
+                    <div className='ProjectsEntry'>
+                        <h1>Grand Canyon South Rim Visitor Center</h1>
+                        <img src={SouthRim} alt='Project'/>
+                    </div>
+                </a>
+
+                <div className='ProjectsEntry'>
+                    <h1>Penguin Zoo Project</h1>
+                    <img src={Photo} alt='Project'/>
+                </div>
+                
+                <div className='ProjectsEntry'>
+                    <h1>Project Y</h1>
+                    <img src={Photo} alt='Project'/>
                 </div>
 
                 <div className="ProjectsColumn">
-                    <img src="img2.jpg" onClick="openModal();currentSlide(2)" class="hover-shadow" />>
-                </div>
+                    <img src="img2.jpg" onClick="openModal();currentSlide(2)" className="hover-shadow" />>
+                </div>  
   
                 <div className="ProjectsColumn">
-                    <img src="img3.jpg" onClick="openModal();currentSlide(3)" class="hover-shadow" />>
+                    <img src="img3.jpg" onClick="openModal();currentSlide(3)" className="hover-shadow" />>
                 </div>
 
                 <div className="ProjectsColumn">
-                    <img src="img4.jpg" onClick="openModal();currentSlide(4)" class="hover-shadow" />>
+                    <img src="img4.jpg" onClick="openModal();currentSlide(4)" className="hover-shadow" />>
                 </div>
             </div>
 
@@ -39,22 +52,22 @@ const News = () => {
 
                 <div className="mySlides">
                     <div className="numbertext">1 / 4</div>
-                        <img src="img1_wide.jpg" style="width:100%" />>
+                        <img src="img1_wide.jpg" />>
                     </div>
 
                 <div className="mySlides">
                     <div className="numbertext">2 / 4</div>
-                        <img src="img2_wide.jpg" style="width:100%" />>
+                        <img src="img2_wide.jpg" />>
                     </div>
 
                     <div className="mySlides">
                         <div className="numbertext">3 / 4</div>
-                            <img src="img3_wide.jpg" style="width:100%"/>>
+                            <img src="img3_wide.jpg" />>
                         </div>
 
                 <div className="mySlides">
                     <div className="numbertext">4 / 4</div>
-                        <img src="img4_wide.jpg" style="width:100%" />>
+                        <img src="img4_wide.jpg"  />>
                     </div>
             </div>
 
@@ -82,24 +95,6 @@ const News = () => {
 
                 <div className="ProjectsColumn">
                     <img className="demo" src="img4.jpg" onClick="currentSlide(4)" alt="Lights"/>>
-                </div>
-
-            {/* Project Entries */}
-            <a href='https://www.vantagecontrols.com/about/press-room/news/vantage-grandcanyon-visitor-center.aspx' target='blank'>
-                <div className='ProjectsEntry'>
-                    <h1>Grand Canyon South Rim Visitor Center</h1>
-                    <img src={SouthRim} alt='Project'/>
-                </div>
-            </a>
-
-                <div onClick={() => updateProjectsVisible(true)} className='ProjectsEntry'>
-                    <h1>Penguin Zoo Project</h1>
-                    <img src={Photo} alt='Project'/>
-                </div>
-
-                <div className='ProjectsEntry'>
-                    <h1>Project Y</h1>
-                    <img src={Photo} alt='Project'/>
                 </div>
         </div>
     </div>

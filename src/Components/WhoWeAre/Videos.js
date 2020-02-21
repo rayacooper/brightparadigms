@@ -7,7 +7,7 @@ import DesignCenter01 from './../../Assets/Design_Center_Introducing_the_Library
 import DesignCenter02 from './../../Assets/Design_Center_Adding_to_your_Library.mp4';
 import DesignCenter03 from './../../Assets/Design_Center_Managing_your_Library.mp4';
 import Equinox01 from './../../Assets/Equinox_Shades_Widget_01.mp4';
-import Equinox02 from './../../Assets/Equinox_Shades_Widget_02';
+import Equinox02 from './../../Assets/Equinox_Shades_Widget_02.mp4';
 import EquinoxTimer01 from './../../Assets/Equinox_Timers_Widget_01.mp4';
 import EquinoxTimer02 from './../../Assets/Equinox_Timers_Widget_02.mp4'
 import './Videos.css'
